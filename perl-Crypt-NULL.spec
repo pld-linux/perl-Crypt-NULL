@@ -5,12 +5,12 @@ Summary:	Crypt::NULL Perl module - NULL Encryption alghorithm
 Summary(pl):	Modu³ Perla Crypt::NULL - algorytm szyfrowania NULL
 Name:		perl-Crypt-NULL
 Version:	1.02
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -28,7 +28,8 @@ implementacj± kodowania NULL. Obs³uguje interfejs Crypt::CBC.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{__make} test
 
@@ -44,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Crypt/NULL.pm
+%{perl_vendorlib}/Crypt/NULL.pm
 %{_mandir}/man3/*
