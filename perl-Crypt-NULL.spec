@@ -28,7 +28,7 @@ implementacj± kodowania NULL. Obs³uguje interfejs Crypt::CBC.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{__make} test
 
