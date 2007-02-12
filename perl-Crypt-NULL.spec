@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	NULL
 Summary:	Crypt::NULL Perl module - NULL encryption alghorithm
-Summary(pl):	Modu≥ Perla Crypt::NULL - algorytm szyfrowania NULL
+Summary(pl.UTF-8):   Modu≈Ç Perla Crypt::NULL - algorytm szyfrowania NULL
 Name:		perl-Crypt-NULL
 Version:	1.02
 Release:	3
@@ -20,10 +20,10 @@ The NULL Encryption Algorithm is a symmetric block cipher described in
 RFC 2410 by Rob Glenn and Stephen Kent. This module implements NULL
 encryption. It supports the Crypt::CBC interface.
 
-%description -l pl
+%description -l pl.UTF-8
 Algorytm kodowania NULL jest symetrycznym szyfrem blokowym opisanym w
-RFC 2410 przez Roba Glenna i Stephena Kenta. Ten modu≥ jest
-implementacj± kodowania NULL. Obs≥uguje interfejs Crypt::CBC.
+RFC 2410 przez Roba Glenna i Stephena Kenta. Ten modu≈Ç jest
+implementacjƒÖ kodowania NULL. Obs≈Çuguje interfejs Crypt::CBC.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
