@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	NULL
 Summary:	Crypt::NULL Perl module - NULL encryption alghorithm
-Summary(pl.UTF-8):   Moduł Perla Crypt::NULL - algorytm szyfrowania NULL
+Summary(pl.UTF-8):	Moduł Perla Crypt::NULL - algorytm szyfrowania NULL
 Name:		perl-Crypt-NULL
 Version:	1.02
 Release:	3
