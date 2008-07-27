@@ -5,7 +5,7 @@ Summary:	Crypt::NULL Perl module - NULL encryption alghorithm
 Summary(pl.UTF-8):	Moduł Perla Crypt::NULL - algorytm szyfrowania NULL
 Name:		perl-Crypt-NULL
 Version:	1.02
-Release:	3
+Release:	4
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
