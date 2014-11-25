@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	NULL
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::NULL Perl module - NULL encryption alghorithm
 Summary(pl.UTF-8):	Moduł Perla Crypt::NULL - algorytm szyfrowania NULL
 Name:		perl-Crypt-NULL
@@ -10,6 +10,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	86918bc7d084be0600a26279304ed395
+URL:		http://search.cpan.org/dist/Crypt-NULL/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
