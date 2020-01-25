@@ -1,6 +1,5 @@
 %define		pdir	Crypt
 %define		pnam	NULL
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::NULL Perl module - NULL encryption alghorithm
 Summary(pl.UTF-8):	Moduł Perla Crypt::NULL - algorytm szyfrowania NULL
 Name:		perl-Crypt-NULL
